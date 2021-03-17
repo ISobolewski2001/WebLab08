@@ -1,0 +1,14 @@
+p{
+    background-color: rgb(97, 20, 220);
+    left: 10;
+    right: 200;
+}
+
+h1 {
+    background-color: rgb(97, 20, 220);
+    position: absolute;
+    top: 20;
+    left: 10;
+    right: 20;
+    bottom: 20;
+}
