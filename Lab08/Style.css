@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 #MAIN {
@@ -9,18 +10,29 @@ body {
 }
 
 #HEADER-BAR {
-    height: 16px;
-    background-color: rgb(30, 109, 155);
+    height: 100px;
+    background-image: url(https://get.clt.re/wp-content/uploads/2014/12/footer-background-01.jpg);
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid;
+}
+
+#HEADER-BAR:hover{
+    opacity: 0.60;
 }
 
 #NEWS {
     display: flex;
 }
 
+#NAVIGATION {
+    font-size: 30px;
+}
 
 #LOGO {
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 750px;
 }
 
 #HEADER {
@@ -38,8 +50,28 @@ body {
     margin-top: 1000;
 }
 
-#NEWS1 p {
+#NEWS {
+    display: flex;
+}
+
+#NEWS1  {
     text-align: center;
+    padding: 50px;
+    width: auto;
+    display: flex;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#NEWS2  {
+    padding: 100px;
+    display: flex;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+    width: auto;
+
 }
 
 #CIRCLES {
@@ -48,16 +80,16 @@ body {
 }
 
 #CIRCLE1 {
-    background-color: darkcyan;
+    background-color: rgb(253, 15, 15);
     width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    height: 150px;
+    border-radius: 100%;
     opacity: 0.7;
     margin-left: 30px;
     margin-top: 100px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #CIRCLE1:hover {
@@ -65,16 +97,16 @@ body {
 }
 
 #CIRCLE2 {
-    background-color: darkcyan;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    background-color: rgb(238, 16, 238);
+    width: 200px;
+    height: 250px;
+    border-radius: 100%;
     opacity: 0.7;
     margin-left: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #CIRCLE2:hover {
@@ -82,16 +114,16 @@ body {
 }
 
 #CIRCLE3 {
-    background-color: darkcyan;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    background-color: rgb(238, 234, 13);
+    width: 500px;
+    height: 150px;
+    border-radius: 150%;
     opacity: 0.7;
     margin-left: 30px;
     margin-top: 100px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #CIRCLE3:hover {
