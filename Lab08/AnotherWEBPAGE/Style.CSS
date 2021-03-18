@@ -1,0 +1,67 @@
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url(https://t3.ftcdn.net/jpg/03/33/61/66/240_F_333616602_go9OsHKjTQtMN55WJix7ZTkr8ZLzSb2z.jpg);
+}
+
+#HEADER {
+    height: 150px;
+    background-image: url(https://get.clt.re/wp-content/uploads/2014/12/footer-background-01.jpg);
+    text-align: center;
+    font-size: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-shadow: 3px 3px;
+
+}
+
+#HEADER:hover {
+    opacity: 0.80;
+}
+
+#PHOTO {
+    justify-content: center;
+    margin-right: 300px;
+    margin-left: 270px;
+}
+
+a:hover {
+    color: hotpink;
+  }
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 0 25px;
+    color: rgb(17, 16, 16);
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgb(11, 13, 15);
+    transition: width .3s
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s
+}
