@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+#MAIN {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #HEADER-BAR {
     height: 16px;
     background-color: rgb(30, 109, 155);
@@ -11,11 +17,25 @@ body {
     display: flex;
 }
 
+
+#LOGO {
+    justify-content: center;
+    margin-left: 100px;
+}
+
 #HEADER {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
     border-bottom: 1px solid;
+}
+
+#FOOTER:link {
+    color: rgb(184, 12, 12);
+}
+
+#TRESC {
+    margin-top: 1000;
 }
 
 #NEWS1 p {
@@ -33,7 +53,11 @@ body {
     height: 300px;
     border-radius: 50%;
     opacity: 0.7;
-    margin-left: -30px;
+    margin-left: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
 
 #CIRCLE1:hover {
@@ -47,6 +71,10 @@ body {
     border-radius: 50%;
     opacity: 0.7;
     margin-left: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
 
 #CIRCLE2:hover {
@@ -60,6 +88,10 @@ body {
     border-radius: 50%;
     opacity: 0.7;
     margin-left: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
 
 #CIRCLE3:hover {
@@ -67,13 +99,20 @@ body {
 }
 
 #FOOTER {
+    display:ruby;
     background-color: rgb(29, 64, 94);
+    background-image: url(http://lekvilla.com/wp-content/uploads/2015/07/BACKGROUND-FOOTER-1.jpg);
+    opacity: 0.7;
     text-align: center;
-    font-style: oblique;
-    font-size: large;
-    height: 200px;
-    margin-top: 40px;
-    color: darkslategray;
+    font-size: 40px;
+    height: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 100px;
+    color: rgb(218, 16, 16);
+    justify-content: space-between;
 }
 
+#FOOTER:hover{
+    opacity: 0.85;
+}
 
