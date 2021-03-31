@@ -1,0 +1,40 @@
+main {
+	background-color: lightblue;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border: 6px solid black;
+}
+
+header {
+	height: 150px;
+	background-color: lightcyan;
+}
+
+section {
+	display: flex;
+}
+
+aside {
+	width: 150px;
+	height: 600px;
+	background-color: red;
+}
+
+article {
+	width: 900px;
+	height: 600px;
+	background-color: lightskyblue;
+}
+
+#RIGHTSIDE {
+	width: 150px;
+	height: 600px;
+	background-color: yellow;
+}
+
+footer {
+	height: 150px;
+	background-color: lightcyan;
+}
