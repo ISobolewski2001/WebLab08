@@ -5,25 +5,26 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 1px solid black;
 }
 
 nav ul {
     display: flex;
+    justify-content: flex-end;
 }
 
 nav li {
     margin: 10px;
     margin-top: -60px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 nav h1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -42,12 +43,149 @@ nav a {
 }
 
 .PARAGRAPH {
-    color: blue;
+    font-size: 1.5rem;
+    color: rgb(8, 128, 226);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.MAIN {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.MAIN h1 {
+    color: black;
     display: flex;
     justify-content: center;
 }
 
-.MAIN {
+.ARTICLE1 p {
+    color: black;
+    display: flex;
+    text-align: left
+}
+
+.ARTICLE2 p {
+    color: black;
+    display: flex;
+    text-align: left
+}
+
+.CIRCLES {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.CIRCLE1 {
+    width: 70px;
+    margin: -10px;
+    padding: 70px;
+    background: rgb(8, 128, 226);
+    border-radius: 50%;
+    opacity: 0.80;
+}
+
+.CIRCLE1:hover {
+    opacity: 0.85;
+}
+
+.CIRCLE2 {
+    width: 70px;
+    margin: -10px;
+    padding: 70px;
+    background: rgb(8, 128, 226);
+    border-radius: 50%;
+    opacity: 0.80;
+}
+
+.CIRCLE2:hover {
+    opacity: 0.85;
+}
+
+.CIRCLE3 {
+    width: 70px;
+    margin: -10px;
+    padding: 70px;
+    background: rgb(8, 128, 226);
+    border-radius: 50%;
+    opacity: 0.80;
+}
+
+.CIRCLE3:hover {
+    opacity: 0.85;
+}
+
+.WRAPER {
+    padding: 40px;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
+}
+
+.TEXT1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.TEXT1 h1 {
+    color: black
+}
+
+.TEXT1 p {
+    font-weight: 700;
+    line-height: 10vh;
+    text-align: left;
+    padding: 20px;
+    color: black;
+}
+
+.TEXT2 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.TEXT2 p {
+    color: blue;
+    text-decoration: underline;
+    text-align: left;
+    padding: 20px;
+}
+
+.TEXT3 {
+    color: black
+}
+
+.TEXT3 p {
+    color: black;
+}
+
+.TEXT4 {
+    color: black;
+}
+
+footer {
+    border-top: 20px solid rgb(10, 1, 1);
+    border-top-style: dotted;
+    margin-top: 70px;
+    background: rgb(14, 24, 5);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
