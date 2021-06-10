@@ -1,0 +1,229 @@
+/* 
+czcionka: arial
+kolor obramowania odnośnika #819791; 
+szerokość strony: 460px
+odstęp między zdjęciami w galerii: 10px;
+nagłówek (About Layer 51): #cbd6df, brak pogrubienia
+tekst podstawowy: 13px, wysokość wiersz 32px, wyrównanie: justify
+kolor obramowania odnośnika: #819791
+stopka: 11px, #444
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("tlo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LOGO {
+    background: transparent;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LOGO p {
+    background: transparent;
+}
+
+.PARAGRAPH1 {
+    background: transparent;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.PARAGRAPH1 p {
+    background: transparent;
+}
+
+.gallery {
+    padding: 0;
+    margin: 350px;
+    background: #fff;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.IMG1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("1.jpg");
+}
+
+.IMG2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("2.jpg");
+}
+
+.IMG3 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("3.jpg");
+}
+
+.IMG4 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("4.jpg");
+}
+
+.IMG5 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("5.jpg");
+}
+
+.IMG6 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("6.jpg");
+}
+
+.IMG7 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("7.jpg");
+}
+
+.IMG8 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("8.jpg");
+}
+
+.IMG9 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("9.jpg");
+}
+
+.IMG10 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("10.jpg");
+}
+
+.IMG11 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("11.jpg");
+}
+
+.IMG12 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("12.jpg");
+}
+
+.IMG13 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("13.jpg");
+}
+
+.IMG14 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("14.jpg");
+}
+
+.IMG15 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("15.jpg");
+}
+
+.IMG16 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-image: url("16.jpg");
+}
+
+article {
+    background: transparent;
+    text-align: ;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    top: -300px;
+    display: flex;
+    justify-content: center;
+}
+
+article p {
+    line-height: 33px;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+}
+
+footer p {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.IMAGE {
+    margin-bottom: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+czcionka: arial
+kolor obramowania odnośnika #819791; 
+szerokość strony: 460px
+odstęp między zdjęciami w galerii: 10px;
+nagłówek (About Layer 51): #cbd6df, brak pogrubienia
+tekst podstawowy: 13px, wysokość wiersz 32px, wyrównanie: justify
+kolor obramowania odnośnika: #819791
+stopka: 11px, #444
+*/
