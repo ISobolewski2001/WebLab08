@@ -268,3 +268,9 @@
     flex-direction: column;
     line-height: 25px;
 }
+
+@media screen only (min-width: 768px) {
+    .MAILLIST {
+        width: 100%;
+    }
+}
