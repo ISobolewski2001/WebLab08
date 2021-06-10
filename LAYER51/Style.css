@@ -1,14 +1,3 @@
-/* 
-czcionka: arial
-kolor obramowania odnośnika #819791; 
-szerokość strony: 460px
-odstęp między zdjęciami w galerii: 10px;
-nagłówek (About Layer 51): #cbd6df, brak pogrubienia
-tekst podstawowy: 13px, wysokość wiersz 32px, wyrównanie: justify
-kolor obramowania odnośnika: #819791
-stopka: 11px, #444
-*/
-
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -215,15 +204,3 @@ footer p {
     justify-content: center;
     align-items: center;
 }
-
-
-/* 
-czcionka: arial
-kolor obramowania odnośnika #819791; 
-szerokość strony: 460px
-odstęp między zdjęciami w galerii: 10px;
-nagłówek (About Layer 51): #cbd6df, brak pogrubienia
-tekst podstawowy: 13px, wysokość wiersz 32px, wyrównanie: justify
-kolor obramowania odnośnika: #819791
-stopka: 11px, #444
-*/
