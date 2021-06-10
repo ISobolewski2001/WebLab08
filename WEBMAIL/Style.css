@@ -108,8 +108,6 @@ margines wewn. 6px 26px
     align-items: center;
 }
 
-{}
-
 .LEFTSIDE .Private {
     color: #fff;
     width: 60%;
@@ -168,6 +166,7 @@ margines wewn. 6px 26px
 }
 
 .MAILLIST {
+    background-color: #252a3a;
     line-height: 70px;
     display: flex;
     justify-content: center;
@@ -175,54 +174,124 @@ margines wewn. 6px 26px
     flex-direction: column;
     flex-wrap: wrap;
     border-right: 1px solid black;
+    border-left: 1px solid black;
     width: 35%;
     height: 100vh;
 }
 
 .MAILLIST h1 {
-    color: blue;
+    color: rgb(29, 83, 119);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .MAILLIST .MAIL1 {
-    color: white;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #fff;
 }
 
 .MAILLIST .MAIL2 {
-    color: white;
-    background-color: rgb(82, 235, 11);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #fff;
 }
 
 .MAILLIST .MAIL3 {
-    color: white;
-    background-color: rgb(15, 243, 224);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #fff;
 }
 
 .MAILLIST .MAIL4 {
-    color: white;
-    background-color: rgb(235, 15, 125);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #fff;
 }
 
 .MAILLIST .MAIL5 {
-    color: white;
-    background-color: rgb(214, 202, 36);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #fff;
 }
 
 .MAILLIST .MAIL5 {
-    color: white;
-    background-color: rgb(34, 40, 128);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #fff;
 }
 
 .MAILLIST .MAIL6 {
-    color: white;
-    background-color: rgb(153, 82, 82);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #fff;
+}
+
+.MAIL1 img {
+    margin: 10px;
+    width: 50px;
+}
+
+.MAIL2 img {
+    margin: 10px;
+    width: 50px;
+}
+
+.MAIL3 img {
+    margin: 10px;
+    width: 50px;
+}
+
+.MAIL4 img {
+    margin: 10px;
+    width: 50px;
+}
+
+.MAIL5 img {
+    margin: 10px;
+    width: 50px;
+}
+
+.MAIL6 img {
+    margin: 10px;
+    width: 50px;
+}
+
+.MAILLIST p {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 .TEXT {
+    display: flex;
+    flex-wrap: wrap;
     float: right;
     width: 50%;
     height: 100vh;
+}
+
+.TEXT h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77px;
+    color: cadetblue;
+    border-bottom: 1px solid black;
+}
+
+.Text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 25px;
 }
