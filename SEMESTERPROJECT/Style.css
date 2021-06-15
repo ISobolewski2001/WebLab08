@@ -69,21 +69,20 @@ nav a {
     font-size: 14px;
 }
 
-.TEXT button {
+.BUTTON {
     background: transparent;
-    color: #fff;
-    display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     padding: 12px 34px;
     position: relative;
     cursor: pointer;
 }
 
-.TEXT button:hover {
+.BUTTON:hover {
     border: 1px solid rgb(255, 255, 255);
     background: rgb(255, 255, 255);
     transition: 1s;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 @media(max-width: 700px) {
@@ -92,6 +91,48 @@ nav a {
     }
     .LINKS ul li {
         display: block;
+        height: 10px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    .TEXT h1 {
+        font-size: 20px;
+    }
+    .LINKS ul li {
+        display: block;
+        height: 10px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .TEXT h1 {
+        font-size: 20px;
+    }
+    .LINKS ul li {
+        display: block;
+        height: 10px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 300px) {
+    .TEXT h1 {
+        font-size: 20px;
+    }
+    .LINKS ul li {
+        display: block;
+        height: 10px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 1800px) {
+    .LINKS ul li {
+        position: relative;
+        left: 50px;
         height: 10px;
     }
 }
