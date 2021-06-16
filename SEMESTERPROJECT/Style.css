@@ -73,16 +73,19 @@ nav a {
 .BUTTON {
     background: transparent;
     color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     padding: 12px 34px;
     position: relative;
+    top: 50px;
     cursor: pointer;
+    font-weight: 800;
+    border-radius: 15px;
 }
 
 .BUTTON:hover {
     border: 1px solid rgb(255, 255, 255);
     background: rgb(255, 255, 255);
-    transition: 1s;
+    transition: 700ms;
     color: rgb(0, 0, 0);
 }
 
