@@ -5,21 +5,13 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 1px solid black;
 }
 
-nav ul {
+nav ul li {
     display: flex;
-    justify-content: flex-end;
-}
-
-nav li {
-    margin: 10px;
-    margin-top: -60px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between
 }
 
 nav h1 {
@@ -76,11 +68,19 @@ nav a {
 }
 
 .CIRCLES {
+    margin: auto 20px;
     height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+@media screen (max-width: 600px) {
+    .CIRCLES {
+        padding: 20px;
+        margin: auto 100px;
+    }
 }
 
 .CIRCLE1 {
@@ -172,19 +172,15 @@ nav a {
 }
 
 footer {
-    border-top: 20px solid rgb(10, 1, 1);
-    border-top-style: dotted;
-    margin-top: 70px;
     background: rgb(14, 24, 5);
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 
-footer h1 {
+footer h2 {
     display: flex;
     justify-content: center;
     align-items: center;
