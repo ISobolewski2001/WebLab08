@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .HEADER {
@@ -10,12 +11,12 @@
     background-image: url("7C44CFGGWQI6XBYIMSMR6KWPFA.jpg");
     background-size: cover;
     background-position: center;
-    position: relative
+    position: relative;
 }
 
 .HEADER:hover {
-    opacity: 85%;
-    transition: 850ms;
+    filter: brightness(80%);
+    transition: 0.8s;
 }
 
 nav {
@@ -314,8 +315,8 @@ footer img:hover {
 }
 
 .HEADER2:hover {
-    opacity: 85%;
-    transition: 850ms;
+    filter: brightness(80%);
+    transition: 0.8s;
 }
 
 .TEXT1 {
@@ -367,8 +368,8 @@ footer img:hover {
 }
 
 .HEADER3:hover {
-    opacity: 85%;
-    transition: 850ms;
+    filter: brightness(80%);
+    transition: 0.8s;
 }
 
 .COLUMN6 {
@@ -403,8 +404,8 @@ hr {
 }
 
 .HEADER4:hover {
-    opacity: 85%;
-    transition: 850ms;
+    filter: brightness(80%);
+    transition: 0.8s;
 }
 
 .TEXT4 {
@@ -524,4 +525,20 @@ hr {
     .TEXT5 p {
         font-size: 20px;
     }
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(61, 55, 141);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
 }
