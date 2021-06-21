@@ -1,0 +1,75 @@
+.LINKS li:hover {
+    transform: translateY(-10px);
+    opacity: 50%;
+    transition: 750ms ease;
+}
+
+@media (max-width: 1000px) {
+    .LINKS li:hover {
+        transform: translateX(-20px);
+    }
+}
+
+.LINKS li:hover .TEXT {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.BUTTON:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    transition: 700ms;
+    color: rgb(0, 0, 0);
+}
+
+.COLUMN:hover {
+    box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.2);
+    transition: 250ms;
+}
+
+.COLUMN2 img:hover {
+    opacity: 80%;
+    box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.2);
+    transition: 250ms;
+}
+
+.COLUMN3 img:hover {
+    opacity: 80%;
+    box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.2);
+    transition: 250ms;
+}
+
+.THIS img:hover {
+    box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.2);
+    transition: 250ms;
+}
+
+footer img:hover {
+    opacity: 50%;
+    transition: 500ms;
+}
+
+.COLUMN5 img:hover {
+    box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.2);
+    transition: 250ms;
+    opacity: 80%;
+}
+
+.BUTTON1:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    transition: 1s;
+    color: rgb(255, 255, 255);
+}
+
+.COLUMN5 button:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    transition: 1s;
+    color: rgb(255, 255, 255);
+}
