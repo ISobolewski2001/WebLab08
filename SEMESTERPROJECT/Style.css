@@ -1,7 +1,8 @@
+/* CONTENT START */
+
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
     font-family: 'Shippori Mincho', serif;
 }
 
@@ -47,8 +48,9 @@ nav a {
 }
 
 .ROGER:hover {
-    color: rgb(255, 255, 255);
-    transition: 600ms ease;
+    font-weight: bold;
+    color: rgb(165, 22, 22);
+    transition: 200ms ease;
     transform: scale(1.3);
 }
 
@@ -346,6 +348,12 @@ input[type="email"] {
     font-size: 25px;
 }
 
+
+/*CONTENT END*/
+
+
+/* SCROLLING */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -361,6 +369,9 @@ input[type="email"] {
  ::-webkit-scrollbar-thumb:hover {
     background: rgb(0, 0, 0);
 }
+
+
+/* LIGHTBOX for PHOTOS */
 
 #lightbox {
     position: fixed;
@@ -383,6 +394,9 @@ input[type="email"] {
     height: 300px;
     border-radius: 20px;
 }
+
+
+/* FORMS */
 
 input[type=text],
 select,
