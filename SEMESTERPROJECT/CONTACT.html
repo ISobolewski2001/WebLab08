@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Media.css">
     <link rel="stylesheet" href="Hover.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
     <link rel="icon" href="ROG22.jpg">
 
     <title>CONTACT</title>
@@ -18,7 +18,9 @@
 <body>
     <section class="HEADER4">
         <nav>
-            <a href="Index.html">ROGER</a>
+
+
+            <a href="Index.html" class="ROGER">ROGER</a>
             <div class="LINKS">
                 <ul>
                     <li><a href="Index.html">HOME</a></li>
@@ -33,19 +35,49 @@
             <p>Always strive for greatness, <br> even if it's not meant to be that day</p>
         </div>
     </section>
-    <section class="FORMS">
-
-        <div class="COLUMN6">
-
-            <form action="">
-                <input type="text" placeholder="ENTER NAME" required>
-                <input type="email" placeholder="ENTER EMAIL" required>
-                <input type="text" placeholder="ENTER SUBJECT" required>
-                <textarea rows="8" placeholder="MESSAGE"></textarea>
-                <button type="submit" class="BUTTON1">SEND MESSAGE</button>
-            </form>
-        </div>
-    </section>
+    <div class="container">
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
     <footer>
         <h1>JOIN US!</h1>
         <p>Join us on social gropus such as FACEBOOK, SNAPCHAT OR INSTAGRAM</p>

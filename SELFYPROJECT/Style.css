@@ -105,7 +105,7 @@ span {
 .more::before,
 ul li::before {
     content: " >>> ";
-    color: #5AD;
+    color: rgb(226, 0, 151);
     font-weight: bold;
 }
 
@@ -331,10 +331,6 @@ ol>li:before {
     color: #5AD;
 }
 
-ol {
-    counter-reset: li;
-}
-
 footer {
     display: block;
     width: 100%;
@@ -433,4 +429,33 @@ footer img {
     border-radius: 40px;
     margin-top: 200px;
     padding: 40px;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+#lightbox.active {
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    width: 700px;
+    height: 400px;
+}
+
+@media (max-width: 769px) {
+    #lightbox img {
+        width: 450px;
+        height: 240px;
+    }
 }

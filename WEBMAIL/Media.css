@@ -1,0 +1,37 @@
+@media (max-width: 992px) {
+    .MAILS-ALL {
+        display: none;
+    }
+}
+
+@media (min-width: 640px) {
+    .menu-btn {
+        color: #252a3a;
+    }
+    .DROP-MENU {
+        display: block;
+    }
+    header {
+        grid-row: 1 / 5;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 150px auto;
+        grid-auto-flow: column;
+        grid-template-rows: 200px auto;
+    }
+}
+
+@media (min-width: 992px) {
+    main {
+        grid-template-columns: 150px 350px auto;
+    }
+    .MAILS-ALL {
+        display: flex;
+        flex-direction: column;
+    }
+    .details2 {
+        grid-column-start: 3;
+        grid-row: 1 / 3;
+    }
+}
