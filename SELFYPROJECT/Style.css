@@ -40,10 +40,6 @@ body {
     width: 100%;
 }
 
-html {
-    background-color: #DDD;
-}
-
 .lead {
     font-style: italic;
     font-size: 1.5rem;
