@@ -116,7 +116,7 @@
 
 @media (max-width: 1000px) {
     .HEADER2 .LINKS {
-        bottom: 20px;
+        bottom: 0px;
     }
     .LINKS ul>li:hover {
         transition: none;
