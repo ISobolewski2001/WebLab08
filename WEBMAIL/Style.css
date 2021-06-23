@@ -21,6 +21,12 @@ header {
     cursor: grab;
 }
 
+nav {
+    margin: 0;
+    line-height: 30px;
+    padding-left: 25px;
+}
+
 .MENU:hover {
     color: rgb(255, 0, 0);
     transition: 1s ease-in-out;
@@ -48,12 +54,6 @@ header:hover .dropdown-menu {
     background-color: #fff;
     color: black;
     transition: 750ms ease;
-}
-
-nav {
-    margin: 0;
-    line-height: 30px;
-    padding-left: 25px;
 }
 
 .LIST {
