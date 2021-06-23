@@ -83,10 +83,6 @@ h6 {
     color: #5AD;
 }
 
-span {
-    color: #5AD;
-}
-
 .more {
     font-weight: bold;
     color: black;
@@ -162,7 +158,6 @@ input[type="button"],
 input[type="submit"] {
     cursor: pointer;
     border: none;
-    text-transform: none;
 }
 
 input[type="text"],
@@ -178,7 +173,6 @@ textarea {
     height: 140px;
     font-size: 1rem;
     padding: 10px;
-    resize: none;
 }
 
 select,
@@ -243,7 +237,7 @@ fieldset {
     align-items: flex-start;
 }
 
-fieldset fieldset {
+fieldset {
     background-color: #FFF;
 }
 
@@ -298,7 +292,6 @@ blockquote {
 }
 
 .--clear {
-    clear: both;
     position: relative;
     top: 40px;
 }
@@ -318,13 +311,6 @@ ol {
 
 li {
     margin-top: 10px;
-}
-
-ol>li:before {
-    content: counter(li) ". ";
-    counter-increment: li;
-    font-weight: bold;
-    color: #5AD;
 }
 
 footer {
@@ -447,11 +433,4 @@ footer img {
 #lightbox img {
     width: 700px;
     height: 400px;
-}
-
-@media (max-width: 769px) {
-    #lightbox img {
-        width: 450px;
-        height: 240px;
-    }
 }
